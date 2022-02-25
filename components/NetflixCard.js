@@ -19,10 +19,13 @@ const NetflixCard = () => {
             three unlikely outcasts - Red, Chuck and Bomb{" "}
           </Text>
         </View>
+        <View style={{marginBottom:10,color:"#6b0000"}}>
         <Button
+        color="#c70202"
           title="Watch Now"
           onPress={() => Linking.openURL("https://www.netflix.com/browse")}
         />
+        </View>
       </View>
     </View>
   );
@@ -30,6 +33,8 @@ const NetflixCard = () => {
 
 const styles = StyleSheet.create({
   container: {
+    
+   
     padding: 50,
     justifyContent: "center",
     alignItems: "center",
@@ -39,7 +44,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   poster: {
-    width: 250,
+    width: 300,
     borderWidth: 1,
     alignItems: "center",
   },
@@ -64,6 +69,9 @@ const styles = StyleSheet.create({
   buttonStyle: {
     borderWidth: 0,
     borderRadius: 20,
+    
+    
+   
   },
 });
 
