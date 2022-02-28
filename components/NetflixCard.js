@@ -33,7 +33,7 @@ const NetflixCard = () => {
 
 const styles = StyleSheet.create({
   container: {
-    
+    flex:1,
    
     padding: 50,
     justifyContent: "center",
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
   },
   poster: {
     width: 300,
-    borderWidth: 1,
+    // borderWidth: 1,
     alignItems: "center",
   },
   poster__info: {
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   poster__text: {
-    color: "#999",
+    color: "#330f0f",
     paddingHorizontal: 20,
     marginBottom: 10,
   },
@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
     width: "100%",
     height: undefined,
     aspectRatio: 1,
+    borderRadius:20
   },
   buttonStyle: {
     borderWidth: 0,
